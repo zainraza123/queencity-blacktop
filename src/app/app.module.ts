@@ -11,6 +11,10 @@ import { HomeComponent } from './components/home/home.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { TemplateComponent } from './components/template/template.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { AboutComponent } from './components/about/about.component';
+import { ServicesComponent } from './components/services/services.component';
+import { GalleryComponent } from './components/gallery/gallery.component';
+import { ContactComponent } from './components/contact/contact.component';
 
 
 @NgModule({
@@ -19,7 +23,11 @@ import { FooterComponent } from './components/footer/footer.component';
     HomeComponent,
     NavbarComponent,
     TemplateComponent,
-    FooterComponent
+    FooterComponent,
+    AboutComponent,
+    ServicesComponent,
+    GalleryComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
